@@ -1,0 +1,22 @@
+.video-placeholder {
+    font-size: 16px;
+    text-decoration: underline;
+}
+
+.video-button {
+    font-size: 24px;
+    color: white;
+    border: 0;
+    padding: 8px 16px;
+    border-radius: 8px;
+}
+
+.video-button-play {
+    margin-right: 16px;
+    background-color: #36ca3d;
+}
+
+.video-button-pause {
+    margin-right: 16px;
+    background-color: #d9d12b;
+}
