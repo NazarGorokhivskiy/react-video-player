@@ -16,11 +16,24 @@ const VideoPlayer = ({video}) => {
 
     return (
         <div>
-            {video ? <video data-testid="video-tag" ref={videoSrc} controls/> : <p className="video-placeholder">Your video appears here...</p>
+            {video ? <video data-testid="video-tag" ref={videoSrc} controls/> :
+                <p className="video-placeholder">Your video appears here...</p>
             }
             <br/>
-            <button data-testid="play-button" className="video-button video-button-play" type="button" onClick={playVideo}>Play</button>
-            <button data-testid="pause-button" className="video-button video-button-pause" type="button" onClick={pauseVideo}>Pause</button>
+            <button
+                data-testid="play-button"
+                className="video-button video-button-play"
+                type="button"
+                onClick={playVideo}
+            >Play
+            </button>
+            <button
+                data-testid="pause-button"
+                className="video-button video-button-pause"
+                type="button"
+                onClick={pauseVideo}
+            >Pause
+            </button>
         </div>
     );
 };
